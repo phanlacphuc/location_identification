@@ -22,6 +22,11 @@
 		ACB366871BF46C7C009F41CA /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB366861BF46C7C009F41CA /* ExtensionDelegate.swift */; };
 		ACB366891BF46C7C009F41CA /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB366881BF46C7C009F41CA /* NotificationController.swift */; };
 		ACB3668B1BF46C7C009F41CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACB3668A1BF46C7C009F41CA /* Assets.xcassets */; };
+		ACB366A21BF48276009F41CA /* Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = ACB366A11BF48276009F41CA /* Config.plist */; };
+		ACB366A31BF48276009F41CA /* Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = ACB366A11BF48276009F41CA /* Config.plist */; };
+		ACB366A41BF48276009F41CA /* Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = ACB366A11BF48276009F41CA /* Config.plist */; };
+		ACB366A51BF48276009F41CA /* Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = ACB366A11BF48276009F41CA /* Config.plist */; };
+		ACB366A61BF48276009F41CA /* Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = ACB366A11BF48276009F41CA /* Config.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,6 +110,7 @@
 		ACB366881BF46C7C009F41CA /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		ACB3668A1BF46C7C009F41CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACB3668C1BF46C7C009F41CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACB366A11BF48276009F41CA /* Config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Config.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +148,7 @@
 		ACB3663D1BF46C7C009F41CA = {
 			isa = PBXGroup;
 			children = (
+				ACB366A11BF48276009F41CA /* Config.plist */,
 				ACB366481BF46C7C009F41CA /* location_identification */,
 				ACB3665D1BF46C7C009F41CA /* location_identificationTests */,
 				ACB366681BF46C7C009F41CA /* location_identificationUITests */,
@@ -373,6 +380,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACB366A21BF48276009F41CA /* Config.plist in Resources */,
 				ACB366541BF46C7C009F41CA /* LaunchScreen.storyboard in Resources */,
 				ACB366511BF46C7C009F41CA /* Assets.xcassets in Resources */,
 				ACB3664F1BF46C7C009F41CA /* Main.storyboard in Resources */,
@@ -383,6 +391,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACB366A31BF48276009F41CA /* Config.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,6 +399,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACB366A41BF48276009F41CA /* Config.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,6 +408,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACB366771BF46C7C009F41CA /* Assets.xcassets in Resources */,
+				ACB366A51BF48276009F41CA /* Config.plist in Resources */,
 				ACB366751BF46C7C009F41CA /* Interface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -406,6 +417,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACB366A61BF48276009F41CA /* Config.plist in Resources */,
 				ACB3668B1BF46C7C009F41CA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -587,6 +599,7 @@
 		ACB366901BF46C7C009F41CA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "location_identification WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.ac.ritsumei.is.cm.location-identification.watchkitapp.watchkitextension";
@@ -601,6 +614,7 @@
 		ACB366911BF46C7C009F41CA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "location_identification WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.ac.ritsumei.is.cm.location-identification.watchkitapp.watchkitextension";
@@ -616,6 +630,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				IBSC_MODULE = location_identification_WatchKit_Extension;
 				INFOPLIST_FILE = "location_identification WatchKit App/Info.plist";
@@ -632,6 +647,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				IBSC_MODULE = location_identification_WatchKit_Extension;
 				INFOPLIST_FILE = "location_identification WatchKit App/Info.plist";
@@ -648,10 +664,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = location_identification/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.ac.ritsumei.is.cm.location-identification";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -659,10 +679,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = location_identification/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.ac.ritsumei.is.cm.location-identification";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -733,6 +757,7 @@
 				ACB366911BF46C7C009F41CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ACB366931BF46C7C009F41CA /* Build configuration list for PBXNativeTarget "location_identification WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -741,6 +766,7 @@
 				ACB366951BF46C7C009F41CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ACB366971BF46C7C009F41CA /* Build configuration list for PBXNativeTarget "location_identification" */ = {
 			isa = XCConfigurationList;
@@ -749,6 +775,7 @@
 				ACB366991BF46C7C009F41CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ACB3669A1BF46C7C009F41CA /* Build configuration list for PBXNativeTarget "location_identificationTests" */ = {
 			isa = XCConfigurationList;
@@ -757,6 +784,7 @@
 				ACB3669C1BF46C7C009F41CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ACB3669D1BF46C7C009F41CA /* Build configuration list for PBXNativeTarget "location_identificationUITests" */ = {
 			isa = XCConfigurationList;
@@ -765,6 +793,7 @@
 				ACB3669F1BF46C7C009F41CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

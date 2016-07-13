@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API URL</key>
+	<string>https://object-location-tracking.herokuapp.com</string>
+	<key>Beacon UUID</key>
+	<string>A205F599-B585-4EFC-9143-D5FE81ADE2C6</string>
+	<key>Beacon Identifier</key>
+	<string>iBeacon Region</string>
+</dict>
+</plist>
